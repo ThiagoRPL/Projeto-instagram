@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram - by ThiagoRPL</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <div class="imagens">
+        <img src="imagens/celular.png" class="imgcelular">
+        <img src="imagens/insta1.png" Class="insta">
+        <img src="imagens/insta2.png" class="insta img-2">
+    </div>
+
+
+    <div class="container">
+        <img src="imagens/insta-logo.png" class="instalogo">
+        <input placeholder="Telefone, email ou nome de usuário">
+        <input placeholder="Senha">
+        <button>Entrar</button>
+        <a class="facebook">Entrar com o Facebook</a>
+        <a class="esqueceu">Esqueceu senha</a>
+    </div>
+
+</body>
+
+<script>
+    let imagem = document.querySelector(".img-2")
+
+    setInterval(function () {
+        if (imagem.style.opacity == 1) {
+            imagem.style.opacity = 0
+        } else {
+            imagem.style.opacity = 1
+        }
+        }, 3000);
+
+
+</script>
+
+<footer class="rodapé">by ThiagoRPL</footer>
+</html>
